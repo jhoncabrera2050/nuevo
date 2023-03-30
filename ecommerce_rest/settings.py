@@ -76,12 +76,12 @@ WSGI_APPLICATION = 'ecommerce_rest.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'railway',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'postgres',
         'USER': 'root',
-        'PASSWORD': 'B1puYGFiaymsPVIyE0Nk',
-        'HOST': 'containers-us-west-129.railway.app',
-        'PORT': '7576',
+        'PASSWORD': 'AcNWL2CalAjmdx1kytOJ',
+        'HOST': 'containers-us-west-50.railway.app',
+        'PORT': '7154',
     }
 }
 
